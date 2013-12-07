@@ -1,0 +1,123 @@
+body {
+  background-color: #ccc;
+  min-width: 1200px;
+}
+.nav, .pagination, .carousel a { cursor: pointer; }
+
+.dropdown {
+  width:12%;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.half-width {
+  width:5.555%;
+}
+
+.ext-width {
+  width:16%;
+}
+
+.pad {
+  top-padding:30px;
+}
+
+
+.full-width {
+  position:relative;
+  width:100%;
+  margin-left: 3%;
+}
+
+.shrink-width {
+  position:relative;
+  width:45%;
+}
+
+.smText {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.by3 {
+  float:left;
+  width:30%;
+  margin:0px 1.5%;
+}
+
+#side-panel {
+  margin-right:1.3%;
+  height:700px;
+  min-width: 300px;
+  margin-left:.5%;
+  padding:0px;
+
+}
+
+#main-panel {
+  height:700px;
+  min-width: 600px;
+}
+
+#full-panel {
+  height:700px;
+  width:93%;
+  min-width: 900px;
+  margin-left:.5%;
+  padding:0px;
+
+}
+
+.well {
+  background-color: #D46600;
+}
+
+
+.slim {
+  margin:0px;
+  padding: 0px;
+}
+
+.viewToggle {
+  position:absolute;
+  left:10px;
+  /*top:-20px;*/
+  ;
+}
+
+.pullUp20 {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.pullLeft40 {
+  position: relative;
+  left:-40px;
+}
+
+.pushRight30 {
+  position: relative;
+  left:30px;
+}
+
+.agentWidget {
+  background-color: white;
+}
+
+.nav-center {
+  width: 360px;
+  margin:10px auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
