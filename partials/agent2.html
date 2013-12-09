@@ -1,7 +1,8 @@
-<div class="full-width">
+<div class="full-width pullUp20">
 	  <div id="full-panel" class="col-xs-11  col-sm-11  col-md-11  col-lg-11 well slim">
-	  	<a href="#/view1" class="viewToggle glyphicon glyphicon-user"></a>&nbsp;&nbsp;&nbsp;<span class="smText">{{agent.name}}</span>
+	  	<a href="#/agent1" class="viewToggle glyphicon glyphicon-user"></a>&nbsp;&nbsp;&nbsp;<span class="smText">{{agent.name}}</span>
 	  	<div ng-include src="'partials/innerNav.html'"></div>
-	  	<ng:include src="template.url"></ng:include>
+	  	<ng:include src="{{template.url}}"></ng:include>
 	  </div>
 </div>
+

@@ -13,6 +13,8 @@ angular.module('myApp', [
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/agent1', {templateUrl: 'partials/agent1.html', controller: 'AppCtrl'});
   $routeProvider.when('/agent2', {templateUrl: 'partials/agent2.html', controller: 'AppCtrl'});
+  $routeProvider.when('/calendar', {templateUrl: 'partials/calendar.html', controller: 'AppCtrl'});
+  $routeProvider.when('/design', {templateUrl: 'partials/design.html', controller: 'AppCtrl'});
 
 
   $routeProvider.otherwise({redirectTo: '/agent1'});

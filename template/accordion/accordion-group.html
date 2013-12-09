@@ -1,10 +1,16 @@
 <div class="panel panel-default">
-  <div class="panel-heading">
-    <h4 class="panel-title">
-      <a href="" class="accordion-toggle" ng-click="isOpen = !isOpen" accordion-transclude="heading">{{heading}}</a>
-    </h4>
-  </div>
-  <div class="panel-collapse" collapse="!isOpen">
-	  <div class="panel-body" ng-transclude></div>
-  </div>
+	<div class="panel-heading">
+		<h4 class="panel-title">
+			<a href="" class="accordion-toggle" ng-click="isOpen = !isOpen" accordion-transclude="heading">
+				<div style="display:block">
+					{{heading}}
+					<span class="pull-right" ng-class="{'glyphicon glyphicon-chevron-down': isOpen, 'glyphicon glyphicon-chevron-right': !isOpen}"></span>
+				</div>
+			</a>
+		</h4>
+	</div>
+	<div class="panel-collapse collapse in" collapse="!isOpen">
+		<div class="panel-body" ng-transclude></div>
+	</div>
 </div>
+
